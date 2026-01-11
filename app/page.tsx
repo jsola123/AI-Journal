@@ -123,7 +123,7 @@ export default function Home() {
               <Badge
                 key={topic}
                 onClick={() => toggleSelect('topics', topic)}
-                className={`m-1 px-5  text-sm drop-shadow-sm select-none hover:bg-muted ${isSelected ? "bg-secondary-foreground" : "bg-primary"}`}
+                className={`m-1 px-5  text-sm drop-shadow-sm select-none hover:bg-[#d6ebff] ${isSelected ? "bg-secondary-foreground" : "bg-primary"}`}
               >
                 {topic}
 
@@ -157,7 +157,7 @@ export default function Home() {
           value={entry}
           onChange={(e) => setEntry(e.target.value)}
           placeholder="Write your journal entry here..."
-          className="bg-white min-h-[500px] w-full"
+          className="bg-white min-h-[500px] w-full rounded-2xl"
         />
         <Button
           onClick={handleGenerateReflection}
