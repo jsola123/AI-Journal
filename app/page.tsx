@@ -157,7 +157,7 @@ export default function Home() {
           value={entry}
           onChange={(e) => setEntry(e.target.value)}
           placeholder="Write your journal entry here..."
-          className="bg-white min-h-[500px] w-full rounded-2xl"
+          className="bg-white min-h-[500px] w-full"
         />
         <Button
           onClick={handleGenerateReflection}
