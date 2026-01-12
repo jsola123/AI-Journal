@@ -1,8 +1,4 @@
-export function buildJournalReflection(
-    journalEntry: string,
-    moods: string[],
-    topics: string[]
-) {
+export function buildJournalReflection(journalEntry: string, moods: string[], topics: string[]) {
     return `
 You are a journaling companion AI. Describe a pattern you notice based on the journal entry and selected moods and topics below:
 

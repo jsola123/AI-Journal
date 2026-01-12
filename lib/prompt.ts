@@ -1,7 +1,4 @@
-export function buildJournalPrompt(
-  moods: string[],
-  topics: string[]
-) {
+export function buildJournalPrompt(moods: string[],topics: string[]){
   return `
 You are a journaling companion AI. Create a journaling prompt based on the following:
 
