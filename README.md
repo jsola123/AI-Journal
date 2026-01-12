@@ -4,6 +4,12 @@ https://ai-journal-jsola2.vercel.app/
 
 
 
+## Design Documentation
+Design document uploaded to files on this repository
+
+
+
+
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
