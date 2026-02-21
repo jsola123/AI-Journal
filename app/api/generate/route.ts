@@ -10,7 +10,7 @@ export async function POST(req: Request) {
         const prompt = buildJournalPrompt(moods, topics);
     
         const response = await openai.responses.create({
-            model: "gpt-4o-mini",
+            model: "gpt-5-mini",
             input: prompt,
         });
 
