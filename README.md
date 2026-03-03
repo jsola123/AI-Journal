@@ -26,6 +26,10 @@ It uses Next.js, tailwind CSS for the frontend, and integrates OpenAI API's gpt-
 
 ## Getting Started
 
+Clone project
+
+Run npm install to install dependencies.  
+
 First, run the development server:
 
 ```bash
